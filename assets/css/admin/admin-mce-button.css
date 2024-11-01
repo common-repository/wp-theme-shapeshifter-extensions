@@ -1,0 +1,242 @@
+/* Side Menu
+-------------------------------------*/
+    div[role=application] .shapeshifter-tinymce-button-section-tabs {
+        height: 100%;
+        border-right: solid #eee 1px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+        .shapeshifter-tinymce-button-section-tabs > li {
+            border-bottom: solid #eee 1px;
+        }
+            .shapeshifter-tinymce-button-section-tabs > li > button {
+                line-height: 1.5;
+                padding: 10px;
+                width: 100%;
+            }
+            .shapeshifter-tinymce-button-section-tabs > li:hover > button:after {
+                margin-left: 20px;
+                content: ">";
+            }
+
+/* Main Menu
+-------------------------------------*/
+    .shapeshifter-tinymce-button-section {
+        height: 100% !important;
+        display: none;
+        overflow: scroll;
+    }
+    .shapeshifter-tinymce-button-section:first{
+        display: block;
+    }
+
+        ul.shapeshifter-tinymce-button-section-list {
+
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+
+        }
+            ul.shapeshifter-tinymce-button-section-list > li {
+
+                width: 99px;
+                height: 99px;
+
+                border-right: solid #eee 1px;
+                border-bottom: solid #eee 1px;
+
+                text-align: center;
+            }
+                ul.shapeshifter-tinymce-button-section-list > li > button {
+                    width: 99px;
+                    height: 99px;
+                    text-align: center;
+                    overflow: hidden;
+                }
+
+                ul.shapeshifter-tinymce-button-section-list > li > button:hover {
+                    cursor: pointer;
+                }
+
+
+/* Settings from SS Button
+-------------------------------------*/
+        div[role="application"] .shapeshifter-settings-form-wrapper p {
+            padding: 10px;
+        }
+        div[role="application"] .shapeshifter-settings-form-wrapper label.shapeshifter-label-for-number,
+        div[role="application"] .shapeshifter-settings-form-wrapper label.shapeshifter-image-slider-size-label {
+            line-height: 2;
+
+        }
+
+    /* Slider Settings
+    -------------------------------------*/
+        div[role="application"] .shapeshifter-slider-settings-form-wrapper {
+            /*width: 100%;*/
+            /*height: 100%;*/
+            border-right: solid #eee 1px;
+        }
+
+        /* Padding */
+            div[role="application"] .shapeshifter-settings-form-wrapper-padding {
+                padding: 10px;
+            }
+
+
+        /* Image Slider */
+            div[role="application"] .shapeshifter-image-holder {
+                max-width: 300px;
+                height: 100%;
+                overflow-y: scroll;
+            }
+            div[role="application"] #shapeshifter-image-holder img {
+                width: 100px;
+                height: 100px;
+            }
+        /* Link */
+            div[role="application"] #shapeshifter-link-settings-form-wrapper {
+
+            }
+            div[role="application"] #shapeshifter-link-settings-form-wrapper label {
+                line-height: 2;
+            }
+
+        /* Balloon */
+            div[role="application"] .shapeshifter-balloon-settings-form-wrapper {
+                
+            }
+
+                /* Preview */
+                    div[role="application"] .shapeshifter-balloon-settings-form-wrapper .shapeshifter-balloon-preview {
+                        margin: 10px;
+                        padding: 10px 0;
+                        border: dotted #EEEEEE 1px;
+                    }
+
+                /* Wrapper */
+                    .shapeshifter-balloon-wrapper {
+                        display: flex;
+                    }
+
+                        /* Image */
+                            .shapeshifter-balloon-wrapper .shapeshifter-balloon-image-wrapper {
+                            }
+                            .shapeshifter-balloon-wrapper.align-left .shapeshifter-balloon-image-wrapper {
+                                margin-left: 10px;
+                                order: 1;
+                            }
+
+                            .shapeshifter-balloon-wrapper.align-right .shapeshifter-balloon-image-wrapper {
+                                order: 2;
+                            }
+
+                            img.shapeshifter-balloon-image {
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 50px;
+                            }
+                                .has-image.shadow-left-bottom {
+                                    box-shadow: -2px 2px 4px #000;
+                                }
+                                .has-image.shadow-right-bottom {
+                                    box-shadow: 2px 2px 4px #000;
+                                }
+
+                        /* Image Name */
+                            .shapeshifter-balloon-image-figure .shapeshifter-balloon-image-caption {
+                                padding: 10px 0;
+                                width: 100px;
+                            }
+                                input.shapeshifter-balloon-image-name {
+                                    width: 100px;
+                                    border: none;
+                                    box-shadow: none;
+                                    border-bottom: solid #EEEEEE 1px;
+                                }
+
+                        /* Dialog */
+                            div.shapeshifter-balloon-dialog-wrapper {
+                                position: relative;
+                                margin: 0 10px;
+                                border: solid #EEEEEE 2px;
+                            }
+                                .shapeshifter-balloon-wrapper.align-left div.shapeshifter-balloon-dialog-wrapper {
+                                    order: 2;
+                                }
+                                    .shapeshifter-balloon-wrapper.align-left div.shapeshifter-balloon-dialog-wrapper:before {
+                                        content: '';
+                                        position: absolute;
+                                        border-right: 8px solid #EEEEEE;
+                                        border-bottom: 8px solid transparent;
+                                        border-top: 8px solid transparent;
+                                        top: 10px;
+                                        left: -9px;
+                                    }
+
+                                .shapeshifter-balloon-wrapper.align-right div.shapeshifter-balloon-dialog-wrapper {
+                                    order: 1;
+                                }
+
+                                    .shapeshifter-balloon-wrapper.align-right div.shapeshifter-balloon-dialog-wrapper:after {
+                                        content: '';
+                                        position: absolute;
+                                        border-left: 8px solid #EEEEEE;
+                                        border-bottom: 8px solid transparent;
+                                        border-top: 8px solid transparent;
+                                        top: 10px;
+                                        right: -9px;
+                                    }
+
+
+                            div.shapeshifter-balloon-dialog-wrapper:after {
+                                
+                            }
+                                textarea#shapeshifterballoondialog {
+                                    padding: 10px;
+                                    width: 420px;
+                                    height: 140px;
+                                }
+
+
+/* Editor Click Popup
+-------------------------------------*/
+    #sseditor_ifr {
+        height: 100% !important;
+    }
+    /* Column Popup Settings
+    -------------------------------------*/
+        div[role="application"] .shapeshifter-col-content-editor-form-wrapper {
+            border-right: solid #eee 1px;
+        }
+        div[role="application"] .tinymce-button-column-settings-popup {
+            margin: 5px;
+        }
+            .tinymce-button-column-settings-popup > p {
+                margin: 5px;
+            }
+
+    /* Settings Form
+    -------------------------------------*/
+        #sseditor-wrap {
+            position: relative;
+        }
+
+        .mce-abs-layout-item {
+            overflow: auto;
+        }
+
+        .shapeshifter-edit-col:first {
+            content: "Edit this Column";
+        }
+
+    /* Settings Form
+    -------------------------------------*/
+        .mce-container-body.mce-stack-layout .mce-widget {
+            border: none;
+            box-shadow: none;
+            margin: 0;
+        }

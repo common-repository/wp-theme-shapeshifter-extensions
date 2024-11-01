@@ -1,0 +1,77 @@
+/* ポップアップ時の背景 */
+.shapeshifter-generated-popup-background {
+	background-color: #000000;
+	opacity: 0.5;
+
+	position: fixed;
+	top: 32px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+
+div#shapeshifter-popup-background,
+div#shapeshifter-general-popup-background {
+	display: none;
+	position: fixed;
+
+	top: 32px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+
+	z-index: 9999;
+	background: #000;
+	opacity: 0.5;
+}
+
+/* ポップアップ用のラッパー */
+div.settings-form-container, 
+div.widget-settings-box {
+	display: none;
+	position: fixed;
+	overflow: scroll;
+
+	top: 50px;
+	right: 50px;
+	bottom: 50px;
+	left: 50px;
+
+	padding: 20px;
+
+	z-index: 10000;
+	background: #FFF;
+}
+
+div.shapeshifter-popup-box > *,
+div.widget-settings-box > * {
+	margin: 10px;
+}
+
+div#insert-group-checks {
+
+	padding: 5px;
+	margin-bottom: 20px;
+	max-height: 100px;
+	overflow: scroll;
+
+	border: solid #aaa 1px;
+
+}
+
+textarea#shapeshifter-insert-content-display, textarea#shapeshifter-make-tepmlate-display {
+	width: 80%;
+	height: 100px;
+}
+
+span#shapeshifter-template-list-popup-notification, span#shapeshifter-popup-notification {
+	color: green;
+	font-size: 12px;
+	font-weight: 900;
+}
+
+.wp-core-ui a.popup-next-settings-box,
+.wp-core-ui a.close-this-settings-box {
+	margin-bottom: 10px;
+}

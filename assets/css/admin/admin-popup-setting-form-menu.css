@@ -1,0 +1,100 @@
+/* ポップアップメニュー */
+.meta-box-popup-menu {
+	z-index: 9992;
+	display: none;
+
+	position: fixed;
+	top: 50px;
+	bottom: 50px;
+	left: 50px;
+	right: 50px;
+	background-color: rgba(255,255,255,1);
+
+	overflow: scroll;
+
+	padding: 10px;
+
+}
+
+.post-meta-popup-menu {
+	padding: 50px;
+}
+
+.post-meta-popup-menu .post-meta-image-settings-wrapper {
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+/* 設定ラベル */
+.post-meta-popup-menu .post-meta-setting-label {
+	font-weight: bold;
+	font-size: 20px;
+
+	margin: 10px 0;
+	border-bottom: solid #000000 1px;
+}
+.post-meta-popup-menu .post-meta-general-setting-label-for-checkbox,
+.post-meta-popup-menu .post-meta-general-setting-label-for-color,
+.post-meta-popup-menu .post-meta-item-slider .post-meta-slider-setting-label {
+}
+.post-meta-popup-menu .post-meta-general-setting-label-for-checkbox:after,
+.post-meta-popup-menu .post-meta-general-setting-label-for-color:after,
+.post-meta-popup-menu .post-meta-item-slider .post-meta-slider-setting-label:after {
+	content: ": ";
+}
+
+.post-meta-popup-menu .post-meta-general-setting-label-for-color {
+	float: left;
+}
+.post-meta-popup-menu .post-meta-general-setting-label-for-color + .post-meta-settings-color {
+	float: left;
+	margin: 0;
+	margin: -3px;
+	margin-left: 5px;
+}
+
+/* 設定詳細 */
+.post-meta-popup-menu .post-meta-settings-description {
+	font-size: 10px;
+	margin: 10px 0;
+}
+
+/* 設定 */
+.post-meta-popup-menu input,
+.post-meta-popup-menu select,
+.post-meta-popup-menu .post-meta-settings-textarea,
+.post-meta-popup-menu .post-meta-settings-color {
+	margin: 10px 0;
+}
+
+.post-meta-popup-menu .post-meta-checkbox-list {
+	margin: 0;
+}
+
+.regular-input-number {
+	width: 50px;
+}
+
+.post-meta-popup-menu .close-post-meta-popup-menu,
+.post-meta-popup-menu .post-meta-set-images {
+	margin: 10px 0;
+}
+
+.post-meta-popup-menu .post-meta-image {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+/* ポップアップメニュー用の背景 */
+#meta-box-popup-background {
+	z-index: 9991;
+	display: none;
+
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.8);
+}

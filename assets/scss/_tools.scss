@@ -1,0 +1,56 @@
+/* Functions
+-------------------------------------------------------------- */
+@function funcname( $width ) {
+	@return percentage( $width );
+}
+
+/* Mixins
+-------------------------------------------------------------- */
+@mixin opacity($opacity: 1.0) {
+	opacity: $opacity;
+}
+
+
+/* Define Placeholder Selectors
+-------------------------------------------------------------- */
+	/* Position
+	**/
+
+	/* Opacity
+	-------------------------------------------------------------- */
+	$i: 1;
+	@while $i <= 10 {
+		$opacity: $i/10; 
+		%opacity#{$i} {
+			opacity: $opacity;
+		}
+		$i: $i+1;
+	}
+
+	/* Width
+	-------------------------------------------------------------- */
+	$i: 1;
+	@while $i <= 10 {
+		$billion: 1000000000;
+		$width: round($billion/$i);
+		%shapeshifter-col-#{$i} {
+			width: percentage( $width/$billion );
+		}
+		$i: $i+1;
+	}
+
+	/* Clearfix
+	-------------------------------------------------------------- */
+	%clearfix,
+	.clear-both {
+		clear: both;
+	}
+
+	%clear-left {
+		clear: left;
+	}
+
+	%clear-right {
+		clear: right;
+	}
+

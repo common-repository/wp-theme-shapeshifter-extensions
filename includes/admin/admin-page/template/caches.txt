@@ -1,0 +1,25 @@
+# SSE HTACCESS
+
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/x-font-ttf application/x-font-opentype image/svg+xml
+
+ExpiresActive On
+ExpiresDefault "access plus 1 month"
+ExpiresDefault "modification plus 1 month"
+ExpiresByType text/css "access plus 1 weeks"
+ExpiresByType text/javascript "access plus 1 weeks"
+ExpiresByType application/x-javascript "access plus 1 weeks"
+ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+ExpiresByType application/x-font-ttf "access plus 1 year"
+ExpiresByType application/x-font-opentype "access plus 1 year"
+ExpiresByType application/x-font-woff "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"

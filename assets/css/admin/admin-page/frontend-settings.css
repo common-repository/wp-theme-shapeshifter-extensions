@@ -1,0 +1,6 @@
+.metabox-holder{ padding-top:0 !important;}
+.table-tabs:after { clear: both; }
+.table-tabs li { float: left; margin: 10px; }
+.tab-a { text-decoration: none; opacity: 0.5; }
+. a { opacity: 1; }
+.clearfix { clear: both; }

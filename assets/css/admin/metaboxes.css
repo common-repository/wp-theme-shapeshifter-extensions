@@ -1,0 +1,134 @@
+.clearfix {
+	clear: both;
+}
+
+/* Disable button for Publish Button */
+	.misc-pub-section #message-disable-publish-button {
+		padding: 2px 0 1px;
+		display: inline!important;
+		height: auto!important;
+		font-style: normal !important;
+	}
+	.misc-pub-section #message-disable-publish-button:before {
+		font: 400 20px/1 dashicons;
+		speak: none;
+		display: inline-block;
+		padding: 0 2px 0 0;
+		top: 0;
+		left: -1px;
+		position: relative;
+		vertical-align: top;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-decoration: none!important;
+		content: "\f160"; 
+		color: #82878c;
+	}
+
+
+/* SEO */
+	#seo-meta-box-table{ width: 100%; }
+	#seo-meta-box-table th{ width: 200px; }
+	#seo-meta-box-table textarea{ width: 100%; height: 100px; }
+	#seo-meta-box-table input#shapeshifter_child-seo_meta_keywords{ width: 100%; }
+
+/* ポップアップメニュー */
+	.shapeshifter-meta-box-popup-menu {
+		z-index: 9992;
+		display: none;
+
+		position: fixed;
+		top: 50px;
+		bottom: 50px;
+		left: 50px;
+		right: 50px;
+		background-color: rgba(255,255,255,1);
+
+		overflow: scroll;
+
+		padding: 10px;
+
+	}
+
+	.shapeshifter-post-meta-popup-menu {
+		padding: 50px;
+	}
+
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-image-settings-wrapper {
+		margin: 10px 0;
+		padding: 10px 0;
+	}
+
+/* 設定ラベル */
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-setting-label {
+		font-weight: bold;
+		font-size: 20px;
+
+		margin: 10px 0;
+		border-bottom: solid #000000 1px;
+	}
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-general-setting-label-for-checkbox,
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-general-setting-label-for-color,
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-item-slider .shapeshifter-post-meta-slider-setting-label {
+	}
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-general-setting-label-for-checkbox:after,
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-general-setting-label-for-color:after,
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-item-slider .shapeshifter-post-meta-slider-setting-label:after {
+		content: ": ";
+	}
+
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-general-setting-label-for-color {
+		float: left;
+	}
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-general-setting-label-for-color + .shapeshifter-post-meta-settings-color {
+		float: left;
+		margin: 0;
+		margin: -3px;
+		margin-left: 5px;
+	}
+
+/* 設定詳細 */
+.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-settings-description {
+	font-size: 10px;
+	margin: 10px 0;
+}
+
+/* 設定 */
+	.shapeshifter-post-meta-popup-menu input,
+	.shapeshifter-post-meta-popup-menu select,
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-settings-textarea,
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-settings-color {
+		margin: 10px 0;
+	}
+
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-checkbox-list {
+		margin: 0;
+	}
+
+	.regular-input-number {
+		width: 50px;
+	}
+
+	.shapeshifter-post-meta-popup-menu .shapeshifter-close-post-meta-popup-menu,
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-set-images {
+		margin: 10px 0;
+	}
+
+	.shapeshifter-post-meta-popup-menu .shapeshifter-post-meta-image {
+		float: left;
+		width: 100px;
+		height: 100px;
+	}
+
+/* ポップアップメニュー用の背景 */
+	#shapeshifter-meta-box-popup-background {
+		z-index: 9991;
+		display: none;
+
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(0,0,0,0.8);
+	}

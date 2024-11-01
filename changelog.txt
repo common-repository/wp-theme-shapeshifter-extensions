@@ -1,0 +1,263 @@
+= 1.1.10 =
+* Fixed the case user meta is not set.
+
+= 1.1.9 =
+* Fixed the widget init functions.
+
+= 1.1.8 =
+* Fixed the Deactivation for Optional Widget Areas.
+* Fixed the Detection for Widgets in WC pages.
+
+= 1.1.7 =
+* Moved Some Setting here from Theme.
+
+= 1.1.6 =
+* SNS Icons Fixed.
+
+= 1.1.5 =
+* JS Error in Theme Customizer Fixed.
+
+= 1.1.4 =
+* Applied to Theme Version 1.1.2 ( Fixed the CSS and Editor Style ).
+
+= 1.1.3 =
+* Fixed the Undefined default values of deactivation of widget areas.
+
+= 1.1.2 =
+* Fixed Updated Icons and Editor Style Saving.
+
+= 1.1.1 =
+* Fixed Updated Icons Saving.
+
+= 1.1.0 =
+* Fixed to apply for theme ver 1.1.0.
+* Condition to read code changed.
+
+= 1.0.70 =
+* Fixed the Init hook for 3rd alpha color picker.
+
+= 1.0.69 =
+* Fixed the Editor Style Path to save.
+
+= 1.0.68 =
+* Arrange Files.
+
+= 1.0.67 =
+* Fixed the JS for Theme Customizer Live Preview.
+* Fixed the Editor Style.
+
+= 1.0.66 =
+* Fixed the path of FontAwesome and Bootstrap URL for Editor Style.
+
+= 1.0.65 =
+* Now Required ShapeShifter 1.0.78 or upper.
+
+= 1.0.64 =
+* Added Pixabay Image Fetcher Beta.
+
+= 1.0.63 =
+* Slider Pro Updated in order to apply for SSL.
+
+= 1.0.62 =
+* Fixed the Balloon Image Check.
+
+= 1.0.61 =
+* Fixed the Balloon Image Width.
+* Added SS Button onto HTML Editor.
+
+= 1.0.60 =
+* Fixed the Save of Custom Styles when plugin updated.
+
+= 1.0.59 =
+* Added Balloon Inserts by ShapeShifter Button in TinyMCE.
+
+= 1.0.58 =
+* Fixed the Reset Image Button for each slider item.
+* Fixed the Image URL Validation.
+
+= 1.0.57 =
+* Fixed the Slider blank.gif url
+* Fixed tranlatable text.
+
+= 1.0.56 =
+* Fixed the Image Change Button of Slider Widget for Each Item.
+
+= 1.0.55 =
+* Update Editor Style When Plugin is Updated.
+
+= 1.0.54 =
+* Applied for PHP 5.5 or less.
+
+= 1.0.53 =
+* Fixed JavaScript Dependancy.
+* Fixed jQuery Handle.
+* Fixed JS Handle Filter.
+* Modified Editor Style Hooks and method.
+
+= 1.0.52 =
+* Fixed Editor Style Function.
+
+= 1.0.51 =
+* Fixed Skin Style Preparation.
+
+= 1.0.50 =
+* Fixed Lazyload for SS1.0.62 
+
+= 1.0.49 =
+* Prepared for SS1.0.62
+
+= 1.0.48 =
+* Fixed Contributer in "readme.txt".
+
+= 1.0.47 =
+* Fixed SNS Icons.
+
+= 1.0.46 =
+* Fixed MCE Button "SS" for Other Plugin.
+
+= 1.0.45 =
+* Optional Widget Area Available with SiteOrigin Widgets by skipping them.
+
+= 1.0.44 =
+* Fixed Widget Title Condition.
+
+= 1.0.43 =
+* Fixed Post Format Detect.
+
+= 1.0.42 =
+* Fixed Sanitization for Logo Image of LDJSON
+
+= 1.0.41 =
+* Fixed the sanitization for textarea.
+
+= 1.0.40 =
+* Removed included jQuery.
+* Sanitized, Escaped, and Validated POST calls.
+
+= 1.0.39 =
+= 1.0.38 =
+* Remove the Functionality of Update Checker and Install from "https://wp-works.net"'s Server. ( Sorry, didn't know that is WP Violation )
+* I made a plugin only for updating theme "ShapeShifter" and distribute in "https://wp-works.net/downloads/".
+
+= 1.0.37 =
+* Fixed TinyMCE Styles.
+* Fixed Thumbnail Images Setting for List Items.
+
+
+= 1.0.36 =
+* Fixed Nav Menu Settings Page.
+
+= 1.0.35 =
+* Fixed Update Checker.
+
+= 1.0.34 =
+* Fixed Style of Widget Entries Thumbnail.
+
+= 1.0.33 =
+* Fixed Style of Singular Title for Skin Pawer when the page is max-sized-one-column.
+* Fixed widget entry thumbnail element.
+* Fixed the Remove Button for Optional Output.
+
+= 1.0.32 =
+* Translated Text for Nav Menu Item Settings.
+
+= 1.0.31 =
+* Fixed Required Version.
+
+= 1.0.30 =
+* Added Custom Nav Menu Settings.
+
+= 1.0.29 =
+* Fixed escaping scripts on Editor. Avoid the value "http(s)://", src and href.
+
+= 1.0.28 =
+* Fixed Row-Columns style "width" for mobile or smaller window size.
+
+= 1.0.27 =
+* Added description text onto "theme_skin" in theme customizer.
+
+= 1.0.26 =
+* Added Table to MCE Buttons.
+* on Editor, made All HTML attributes escaped.
+
+= 1.0.25 =
+* Fixed Text Displayed on TinyMCE Button Setting Form.
+* Added Translations into Japanese.
+
+= 1.0.24 =
+* Add "Link", "Slider", "Shortcode" on TinyMCE ShapeShifter Button
+
+= 1.0.23 =
+* Fixed Google Fonts Settings.
+* Add Theme Update Checker.
+
+= 1.0.22 =
+* Added Google Fonts Settings.
+
+= 1.0.21 =
+* Adjust saving for when preview.
+
+= 1.0.20 =
+* Forgot Commenting out.
+
+= 1.0.19 =
+* Fixed JS Data Arrange.
+
+= 1.0.18 =
+* Fixed Row Data Initialization 2.
+
+= 1.0.17 =
+* Fixed Row Data Initialization.
+
+= 1.0.16 =
+* Fixed to inheriting previous version setting of optional outputs
+
+= 1.0.15 =
+* Fixed Error of  Sanitize for Placed Widget ( Opitonal Output in Meta Box ).
+* Improved Optional Outputs by Post Meta.
+
+= 1.0.14 =
+* Add TinyMCE Button "SS" on Visual Editor. ( For now, only Appending Row with Columns and HTML Insert )
+
+= 1.0.13 =
+* Fixed the Date printed by widget.
+
+= 1.0.12 =
+* Fixed form JS code for vegas
+
+= 1.0.11 =
+* Fixed Share Buttons Icons for Archive
+
+= 1.0.10 =
+* Fixed Widget SNS Share Icons' Output
+
+= 1.0.9 =
+* applied upper version than 1.0.30
+
+= 1.0.8 =
+* added version check.
+
+= 1.0.7 =
+* Fixed sanitize methods.
+
+= 1.0.6 =
+* Added required files.
+
+= 1.0.5 =
+* Fixed mistake to upload.
+
+= 1.0.4 =
+* Add required files.
+
+= 1.0.3 =
+* made form for widget areas sortable.
+
+= 1.0.2 =
+* translation for customizer.
+
+= 1.0.1 =
+* Adjusting.
+
+= 1.0.0 =
+* Released.
+

@@ -1,0 +1,89 @@
+/* Setting Tab */
+	.metabox-holder{ padding-top:0 !important;}
+	.table-tabs:after { clear: both; }
+	.table-tabs li { float: left; margin: 10px; }
+	.tab-a { text-decoration: none; opacity: 0.5; }
+	.tab.selected a { opacity: 1; }
+	.clearfix { clear: both; }
+
+	.settings-wrapper { display: none; }
+	.settings-wrapper.selected { display:block; }
+
+
+/* Messages */
+	.notice,
+	div.error,
+	div.updated {
+		margin: 20px 0px 20px;
+	}
+
+/* Auto Insert */
+	#auto-insert-settings-wrapper table { border-collapse: separate; border-spacing: 20px; margin: 0; padding: 0; }
+	#auto-insert-settings-wrapper table.inner { border-spacing: 0; margin: 0; padding: 0; vertical-align: middle; }
+	#auto-insert-settings-wrapper tbody { border-spacing: 0; margin: 0; padding: 0; }
+	#auto-insert-settings-wrapper tr { border-spacing: 10px; margin: 0; padding: 0; }
+	#auto-insert-settings-wrapper th { border-spacing: 0; margin: 0; padding: 0; }
+	#auto-insert-settings-wrapper td { border-spacing: 0; margin: 0; padding: 0; }
+
+	.form-table-title {}
+	.form-table td p.description { margin: 0; }
+
+
+/* Theme Settings */
+	/* Widget Areas */
+		input[type=number] { width: 50px; }
+		#widget-areas-settings-wrapper table { border-spacing: 0; padding: 0; margin: 0; }
+		#widget-areas-settings-wrapper .form-table { border-spacing: 0; padding: 0; margin: 30px; }
+		#widget-areas-settings-wrapper tbody { border-spacing: 0; padding: 0; margin: 0; }
+		#widget-areas-settings-wrapper tr { border-spacing: 0; padding: 0; margin: 0; }
+		#widget-areas-settings-wrapper th { border-spacing: 0; padding: 0; margin: 0; }
+		#widget-areas-settings-wrapper td { border-spacing: 0; padding: 0; margin: 0; }
+
+		.form-table {}
+		.ui-state-highlight { height: 1.5em; line-height: 1.2em; }
+
+
+/* SEO */
+	#seo-settings-wrapper table { border-collapse: separate; border-spacing: 10px; margin: 0; padding: 0; }
+	#seo-settings-wrapper table.inner { border-spacing: 0; margin: 0; padding: 0; vertical-align: middle; }
+	#seo-settings-wrapper tbody { border-spacing: 0; margin: 0; padding: 0; }
+	#seo-settings-wrapper tr { border-spacing: 10px; margin: 0; padding: 0; }
+	#seo-settings-wrapper th { border-spacing: 0; margin: 0; padding: 0; }
+	#seo-settings-wrapper td { border-spacing: 0; margin: 0; padding: 0; }
+
+	.form-table td p.description { margin: 0; }
+
+
+/* Custom Fonts */
+input#google-fonts-api-key {
+	width: 400px;
+}
+
+/* Table */
+	table#google-fonts-settings-table {
+		height: 300px;
+		display: block;
+	}
+		table#google-fonts-settings-table thead {
+			display: block;
+		}
+		table#google-fonts-settings-table tbody {
+			display: block;
+			height: 200px;
+			overflow-y: scroll;
+		}
+		table#google-fonts-settings-table tfoot {
+			display: block;
+		}
+			table#google-fonts-settings-table tr {
+				
+			}
+
+				table#google-fonts-settings-table th:nth-child(2) {
+					width: 100%;
+				}
+
+				table#google-fonts-settings-table td {
+					width: 100%;
+				}
+
